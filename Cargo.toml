@@ -1,0 +1,17 @@
+[package]
+name = "azer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Logger
+chrono = "0.4.41"
+log = "0.4.27"
+env_logger = "0.11.8"
+
+# Window
+winit = "0.30.12"
+
+# Vulkan
+vulkano = "0.35.2"
+vulkano-shaders = "0.35.0"
